@@ -1,15 +1,20 @@
-﻿using System.Text.RegularExpressions;
-
-Page Firstpage = new Page("Min første side i min awesome bog");
-
-Page Secondpage = new Page("Min første side i min awesome bog");
-
-Page Thirdpage = new Page("Min første side i min awesome bog");
-
-Firstpage.Read();
-
-Chapter Kapitel = new Chapter("Variabler");
+﻿Page side1 = new Page(MyNotes.OurBoolPage);
+Page side2 = new Page(MyNotes.OurIntPage);
+Page side3 = new Page(MyNotes.OurFloatPage);
+Page side4 = new Page(MyNotes.OurStringPage);
 
 
 
-Console.ReadLine();
+Chapter kapitel1 = new Chapter("Variabler");
+kapitel1.Pages.Add(side1);
+kapitel1.Pages.Add(side2);
+kapitel1.Pages.Add(side3);
+kapitel1.Pages.Add(side4);
+
+Book mybook = new Book("Notes");
+mybook.Chapters.Add(kapitel1);
+
+mybook.Start();
+
+
+

@@ -24,5 +24,5 @@ repræsenterer kommatal/decimaltal";
 
 public static string OurStringPage =@"string bruges til at repræsentere tekst, der både kan indeholde bogstaver, tal, tegn og mellemrum.";
 
-public static string OurBoolPage =@"Bool fortælle rom noget enten er sandt eller falskst. Den kan f.eks. sige om en variabel er størrer end et andet, om en knap er blevet trykket eller om en handling er blevet fundført med succes.";
+public static string OurBoolPage =@"Bool fortæller rom noget enten er sandt eller falskst. Den kan f.eks. sige om en variabel er størrer end et andet, om en knap er blevet trykket eller om en handling er blevet fundført med succes.";
 }
